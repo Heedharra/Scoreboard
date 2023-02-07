@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h2>NATIONAL BASKETBALL ASSOCIATION 🏀</h2>
+        <div class="container">
+            <div class="score-con">
+                <h3>HOME</h3>
+                <div class="score-bg" id="score1">0</div>                
+                <button class="btn" onclick="plusOneHome()">+1</button>
+                <button class="btn" onclick="plusTwoHome()">+2</button>
+                <button class="btn" onclick="plusThreeHome()">+3</button>                
+            </div>
+            <div class="score-con">
+                <h3>AWAY</h3>
+                <div class="score-bg" id="score2">0</div>                
+                <button class="btn" onclick="plusOneAway()">+1</button>
+                <button class="btn" onclick="plusTwoAway()">+2</button>
+                <button class="btn" onclick="plusThreeAway()">+3</button>                           
+            </div>            
+        </div>
+        
+        <button class="reset" onclick="reset()">RESET</button>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
